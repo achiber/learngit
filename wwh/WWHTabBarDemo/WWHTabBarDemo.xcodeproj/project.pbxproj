@@ -1,0 +1,449 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		50537EC81B7478EF0034D8ED /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 50537EC71B7478EF0034D8ED /* main.m */; };
+		50537ECB1B7478EF0034D8ED /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 50537ECA1B7478EF0034D8ED /* AppDelegate.m */; };
+		50537ED11B7478EF0034D8ED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50537ECF1B7478EF0034D8ED /* Main.storyboard */; };
+		50537ED31B7478EF0034D8ED /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 50537ED21B7478EF0034D8ED /* Images.xcassets */; };
+		50537ED61B7478EF0034D8ED /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 50537ED41B7478EF0034D8ED /* LaunchScreen.xib */; };
+		50537EE21B7478EF0034D8ED /* WWHTabBarDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 50537EE11B7478EF0034D8ED /* WWHTabBarDemoTests.m */; };
+		50537EF71B747ADC0034D8ED /* WWHFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 50537EF61B747ADC0034D8ED /* WWHFirstViewController.m */; };
+		50537EFA1B747AF10034D8ED /* WWHSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 50537EF91B747AF10034D8ED /* WWHSecondViewController.m */; };
+		50537EFD1B747B090034D8ED /* WWHThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 50537EFC1B747B090034D8ED /* WWHThirdViewController.m */; };
+		50537F061B747BA40034D8ED /* WWHForthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 50537F051B747BA40034D8ED /* WWHForthViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		50537EDC1B7478EF0034D8ED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 50537EBA1B7478EF0034D8ED /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 50537EC11B7478EF0034D8ED;
+			remoteInfo = WWHTabBarDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		50537EC21B7478EF0034D8ED /* WWHTabBarDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WWHTabBarDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		50537EC61B7478EF0034D8ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		50537EC71B7478EF0034D8ED /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		50537EC91B7478EF0034D8ED /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		50537ECA1B7478EF0034D8ED /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		50537ED01B7478EF0034D8ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		50537ED21B7478EF0034D8ED /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		50537ED51B7478EF0034D8ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		50537EDB1B7478EF0034D8ED /* WWHTabBarDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WWHTabBarDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		50537EE01B7478EF0034D8ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		50537EE11B7478EF0034D8ED /* WWHTabBarDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WWHTabBarDemoTests.m; sourceTree = "<group>"; };
+		50537EF51B747ADC0034D8ED /* WWHFirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WWHFirstViewController.h; sourceTree = "<group>"; };
+		50537EF61B747ADC0034D8ED /* WWHFirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WWHFirstViewController.m; sourceTree = "<group>"; };
+		50537EF81B747AF10034D8ED /* WWHSecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WWHSecondViewController.h; sourceTree = "<group>"; };
+		50537EF91B747AF10034D8ED /* WWHSecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WWHSecondViewController.m; sourceTree = "<group>"; };
+		50537EFB1B747B090034D8ED /* WWHThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WWHThirdViewController.h; sourceTree = "<group>"; };
+		50537EFC1B747B090034D8ED /* WWHThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WWHThirdViewController.m; sourceTree = "<group>"; };
+		50537F041B747BA40034D8ED /* WWHForthViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WWHForthViewController.h; path = ../WWHForthViewController.h; sourceTree = "<group>"; };
+		50537F051B747BA40034D8ED /* WWHForthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WWHForthViewController.m; path = ../WWHForthViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		50537EBF1B7478EF0034D8ED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50537ED81B7478EF0034D8ED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		50537EB91B7478EF0034D8ED = {
+			isa = PBXGroup;
+			children = (
+				50537EC41B7478EF0034D8ED /* WWHTabBarDemo */,
+				50537EDE1B7478EF0034D8ED /* WWHTabBarDemoTests */,
+				50537EC31B7478EF0034D8ED /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		50537EC31B7478EF0034D8ED /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				50537EC21B7478EF0034D8ED /* WWHTabBarDemo.app */,
+				50537EDB1B7478EF0034D8ED /* WWHTabBarDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		50537EC41B7478EF0034D8ED /* WWHTabBarDemo */ = {
+			isa = PBXGroup;
+			children = (
+				50537EC91B7478EF0034D8ED /* AppDelegate.h */,
+				50537ECA1B7478EF0034D8ED /* AppDelegate.m */,
+				50537EF51B747ADC0034D8ED /* WWHFirstViewController.h */,
+				50537EF61B747ADC0034D8ED /* WWHFirstViewController.m */,
+				50537EF81B747AF10034D8ED /* WWHSecondViewController.h */,
+				50537EF91B747AF10034D8ED /* WWHSecondViewController.m */,
+				50537EFB1B747B090034D8ED /* WWHThirdViewController.h */,
+				50537EFC1B747B090034D8ED /* WWHThirdViewController.m */,
+				50537F041B747BA40034D8ED /* WWHForthViewController.h */,
+				50537F051B747BA40034D8ED /* WWHForthViewController.m */,
+				50537ECF1B7478EF0034D8ED /* Main.storyboard */,
+				50537ED21B7478EF0034D8ED /* Images.xcassets */,
+				50537ED41B7478EF0034D8ED /* LaunchScreen.xib */,
+				50537EC51B7478EF0034D8ED /* Supporting Files */,
+			);
+			path = WWHTabBarDemo;
+			sourceTree = "<group>";
+		};
+		50537EC51B7478EF0034D8ED /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				50537EC61B7478EF0034D8ED /* Info.plist */,
+				50537EC71B7478EF0034D8ED /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		50537EDE1B7478EF0034D8ED /* WWHTabBarDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				50537EE11B7478EF0034D8ED /* WWHTabBarDemoTests.m */,
+				50537EDF1B7478EF0034D8ED /* Supporting Files */,
+			);
+			path = WWHTabBarDemoTests;
+			sourceTree = "<group>";
+		};
+		50537EDF1B7478EF0034D8ED /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				50537EE01B7478EF0034D8ED /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		50537EC11B7478EF0034D8ED /* WWHTabBarDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 50537EE51B7478EF0034D8ED /* Build configuration list for PBXNativeTarget "WWHTabBarDemo" */;
+			buildPhases = (
+				50537EBE1B7478EF0034D8ED /* Sources */,
+				50537EBF1B7478EF0034D8ED /* Frameworks */,
+				50537EC01B7478EF0034D8ED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WWHTabBarDemo;
+			productName = WWHTabBarDemo;
+			productReference = 50537EC21B7478EF0034D8ED /* WWHTabBarDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		50537EDA1B7478EF0034D8ED /* WWHTabBarDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 50537EE81B7478EF0034D8ED /* Build configuration list for PBXNativeTarget "WWHTabBarDemoTests" */;
+			buildPhases = (
+				50537ED71B7478EF0034D8ED /* Sources */,
+				50537ED81B7478EF0034D8ED /* Frameworks */,
+				50537ED91B7478EF0034D8ED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				50537EDD1B7478EF0034D8ED /* PBXTargetDependency */,
+			);
+			name = WWHTabBarDemoTests;
+			productName = WWHTabBarDemoTests;
+			productReference = 50537EDB1B7478EF0034D8ED /* WWHTabBarDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		50537EBA1B7478EF0034D8ED /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = sj.com.wwh;
+				TargetAttributes = {
+					50537EC11B7478EF0034D8ED = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					50537EDA1B7478EF0034D8ED = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 50537EC11B7478EF0034D8ED;
+					};
+				};
+			};
+			buildConfigurationList = 50537EBD1B7478EF0034D8ED /* Build configuration list for PBXProject "WWHTabBarDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 50537EB91B7478EF0034D8ED;
+			productRefGroup = 50537EC31B7478EF0034D8ED /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				50537EC11B7478EF0034D8ED /* WWHTabBarDemo */,
+				50537EDA1B7478EF0034D8ED /* WWHTabBarDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		50537EC01B7478EF0034D8ED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50537ED11B7478EF0034D8ED /* Main.storyboard in Resources */,
+				50537ED61B7478EF0034D8ED /* LaunchScreen.xib in Resources */,
+				50537ED31B7478EF0034D8ED /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50537ED91B7478EF0034D8ED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		50537EBE1B7478EF0034D8ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50537EFA1B747AF10034D8ED /* WWHSecondViewController.m in Sources */,
+				50537F061B747BA40034D8ED /* WWHForthViewController.m in Sources */,
+				50537ECB1B7478EF0034D8ED /* AppDelegate.m in Sources */,
+				50537EC81B7478EF0034D8ED /* main.m in Sources */,
+				50537EF71B747ADC0034D8ED /* WWHFirstViewController.m in Sources */,
+				50537EFD1B747B090034D8ED /* WWHThirdViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50537ED71B7478EF0034D8ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50537EE21B7478EF0034D8ED /* WWHTabBarDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		50537EDD1B7478EF0034D8ED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 50537EC11B7478EF0034D8ED /* WWHTabBarDemo */;
+			targetProxy = 50537EDC1B7478EF0034D8ED /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		50537ECF1B7478EF0034D8ED /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				50537ED01B7478EF0034D8ED /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		50537ED41B7478EF0034D8ED /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				50537ED51B7478EF0034D8ED /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		50537EE31B7478EF0034D8ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		50537EE41B7478EF0034D8ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		50537EE61B7478EF0034D8ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WWHTabBarDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		50537EE71B7478EF0034D8ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WWHTabBarDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		50537EE91B7478EF0034D8ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = WWHTabBarDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WWHTabBarDemo.app/WWHTabBarDemo";
+			};
+			name = Debug;
+		};
+		50537EEA1B7478EF0034D8ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = WWHTabBarDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WWHTabBarDemo.app/WWHTabBarDemo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		50537EBD1B7478EF0034D8ED /* Build configuration list for PBXProject "WWHTabBarDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50537EE31B7478EF0034D8ED /* Debug */,
+				50537EE41B7478EF0034D8ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		50537EE51B7478EF0034D8ED /* Build configuration list for PBXNativeTarget "WWHTabBarDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50537EE61B7478EF0034D8ED /* Debug */,
+				50537EE71B7478EF0034D8ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		50537EE81B7478EF0034D8ED /* Build configuration list for PBXNativeTarget "WWHTabBarDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50537EE91B7478EF0034D8ED /* Debug */,
+				50537EEA1B7478EF0034D8ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 50537EBA1B7478EF0034D8ED /* Project object */;
+}

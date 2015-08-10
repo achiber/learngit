@@ -1,0 +1,64 @@
+{
+    "contacts": [
+                 {
+                 "name": "刘备",
+                 "signature" : "刘备的个性签名",
+                 "onlineStatus" : "在线",
+                 "avatarImageName" : "liubei.jpg"
+                 },
+                 {
+                 "name": "关羽",
+                 "signature" : "关羽的个性签名",
+                 "onlineStatus" : "离开",
+                 "avatarImageName" : "guanyu.jpg"
+                 },
+                 {
+                 "name": "张飞",
+                 "signature" : "张飞的个性签名",
+                 "onlineStatus" : "忙碌",
+                 "avatarImageName" : "zhangfei.jpg"
+                 },
+                 {
+                 "name": "赵云",
+                 "signature" : "赵云的个性签名",
+                 "onlineStatus" : "离线",
+                 "avatarImageName" : "zhaoyun.jpg"
+                 },
+                 {
+                 "name": "黄忠",
+                 "signature" : "黄忠的个性签名",
+                 "onlineStatus" : "离线",
+                 "avatarImageName" : "huangzhong.jpg"
+                 },
+                 {
+                 "name": "曹操",
+                 "signature" : "曹操的个性签名",
+                 "onlineStatus" : "离线",
+                 "avatarImageName" : "caocao.jpg"
+                 },
+                 {
+                 "name": "孙权",
+                 "signature" : "孙权的个性签名",
+                 "onlineStatus" : "离线",
+                 "avatarImageName" : "sunquan.jpg"
+                 },
+                 {
+                 "name": "司马懿",
+                 "signature" : "司马懿的个性签名",
+                 "onlineStatus" : "离线",
+                 "avatarImageName" : "simayi.jpg"
+                 },
+                 {
+                 "name": "诸葛孔明",
+                 "signature" : "诸葛孔明的个性签名",
+                 "onlineStatus" : "离线",
+                 "avatarImageName" : "zhugekongming.jpg"
+                 },
+                 {
+                 "name": "荀彧",
+                 "signature" : "荀彧的个性签名",
+                 "onlineStatus" : "离线",
+                 "avatarImageName" : "xunyu.jpg"
+                 }
+             ]
+}
